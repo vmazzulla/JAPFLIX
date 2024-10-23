@@ -1,0 +1,79 @@
+body {
+    justify-content: center;
+}
+
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+#inputBuscar {
+    margin: 10px 0;
+}
+
+.pelicula-info {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+.pelicula-info2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.puntaje {
+    display: flex;
+    float: right;
+}
+
+#pelicula {
+    background-color: rgb(59, 59, 59);
+}
+
+.pelicula-info h2 {
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 12px;
+    float: left;
+}
+
+.pelicula-info p {
+    color: white;
+}
+
+
+
+#lista {
+    margin: 10px 10%;
+}
+
+#coso {
+    margin: 10px;
+}
